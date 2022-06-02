@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+/*HEADER*/
+header {
+    height: 100px;
+    background-color: whitesmoke;
+    padding: 0 50px;
+    color: black;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 38px;
+    transition: 0.4s;
+    display: inline-block;
+}
+.menu a span {
+    color: #8e7bef;
+}
+.mostrar-menu, .esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.mostrar-menu {
+    order: 1;
+}
+.menu a:hover, 
+.mostrar-menu:hover,
+.esconder-menu:hover {
+    color:#8e7bef;
+}
+#check{
+    display: none;
+}
+
+/*BANNER LEFT PART*/
+#banner {
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+}
+.left-banner {
+    width: 500px;
+}
+#banner h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+#banner h4 {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+#banner a {
+    text-decoration: none;
+    background-color: #8e7bef;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    transition: 0.8s;
+}
+#banner a:hover {
+    background-color: #ab9df0;
+    padding: 12px;
+}
+/*BANNER RIGHT PART*/
+.right-banner {
+    display: flex;
+}
+.right-banner-text {
+    padding: 30px;
+    font-size: 24px;
+    width: 190px;
+}
+.right-banner-text img{
+    padding: 9px 9px;
+    margin: 8px 8px;
+    background-color: #8e7bef;
+    border-radius: 100px;
+    transition: 0.4s;
+}
+.right-banner-text img:hover{
+    background-color: #ab9df0;
+    margin: 0;
+    padding: 12px;
+    
+}
+.cinco-años{
+    color: #7e7778;
+    padding: 20px 0;
+}
+.cinco-años span {
+    color: #8e7bef;
+}
+/*Yellow part*/
+.yellow-up{
+    background-color: #fcda68;
+    display: flex;
+    padding: 50px 100px;
+}
+.yellow-left h2{
+    font-size: 30px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.yellow-left p {
+    width: 90%;
+    color:#423f40;
+}
+.yellow-right {
+    padding-left: 112px;
+}
+.yellow-right h5 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.fj, .sj{
+    padding-bottom: 20px;
+    border-bottom: hsl(351, 3%, 48%) solid 1px;
+    padding-right: 100px;
+    align-items: right;
+    display: inline-block;
+}
+.year{
+    color: #423f40;
+    padding-right: 40px;
+}
+.company {
+    color: #423f40;
+    padding-left: 132px;
+    margin-right: 100%;
+}
+.sj, .tj{
+    padding-top: 10px;
+    
+}
+#inline {
+    display: inline;
+}
+
+/*HABILIDADES (yellow down)*/
+.yellow-down{
+    background-color: #fcda68;
+    display: flex;
+    padding: 0 200px;
+}
+.yellow-down div h4{
+    font-size: 20px;
+}
+.yellow-down div {
+    width: 150px;
+    text-align: center;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+/*Portafolio*/
+#portafolio{
+    padding: 0 100px;
+}
+.portfolio-images{
+    display: flex;
+}
+.subtitle-block{
+    display: inline;
+}
+.subtitle-block h2{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 50px 0;
+}
+.portfolio-images{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-images div{
+    padding: 0 20px;
+    justify-content: center;
+}
+.portfolio-images div img{
+    width: 350px;
+    height: 290px;
+    justify-content: space-between;
+    padding-top: 15px;
+    transition: 0.6s;
+}
+.portfolio-images div a{
+    text-decoration: none;
+    color: #8e7bef;
+}
+.portfolio-images div img:hover{
+    height: 300px;
+    width:360px ;
+}
+/*Contacto*/
+#Contacto h2{
+    padding-left: 100px;
+    padding-top: 100px;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Contacto{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+.bg-img img{
+    width: 90px;
+    height: 90px;
+    transition: 0.6s;
+}
+.Contacto div{
+    padding: 30px 50px;
+    text-align: center;
+}
+.bg-img{
+    background-color: #F9F5F2;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+.Contacto div h4, p{
+    padding-top: 1rem;
+}
+.Contacto div p{
+    color: #7e7778;
+}
+.bg-img img:hover{
+    width: 100px;
+    height: 100px;
+}
+/*footer*/
+footer img{
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+footer{
+    color: #8e7bef;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#footer img:hover{
+    color: #684cf0;
+    width: 23px;
+    height: 23px;
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
