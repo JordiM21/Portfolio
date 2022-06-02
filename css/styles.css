@@ -104,6 +104,9 @@ header {
 .cinco-años span {
     color: #8e7bef;
 }
+#banner a.second-button{
+    display: none;
+}
 /*Yellow part*/
 .yellow-up{
     background-color: #fcda68;

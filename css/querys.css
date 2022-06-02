@@ -37,6 +37,12 @@
     #banner div{
         justify-content: center;
     }
+    #banner a.first-button {
+        display: none;
+    } 
+    #banner a.second-button{
+        display: inline-block;
+    }
     /*yellow part*/
     .yellow-up {
         flex-direction: column;
@@ -65,8 +71,18 @@
 }
 
 @media(max-width: 600px){
-    .left-banner h1{
-        font-size: 50px;
+    #banner h1{
+        font-size: 60px;
+    }
+    .left-banner {
+        width: 400px;
+        padding-left: 20px;
+    }
+    .yellow-up{
+        padding: 50px 20px;
+    }
+    .Contacto{
+        flex-direction: column;
     }
 
 }
