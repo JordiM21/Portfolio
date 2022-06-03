@@ -207,13 +207,14 @@ header {
     width:360px ;
 }
 /*Contacto*/
-#Contacto h2{
+ #Contacto h2{
     padding-left: 100px;
     padding-top: 100px;
     display: block;
     font-size: 24px;
     font-weight: 800;
-}
+    width: 100vw;
+} 
 .Contacto{
     display: flex;
     justify-content: center;
@@ -260,6 +261,7 @@ footer{
     height: 23px;
     padding: 0 5px;
 }
+
 
 
 
