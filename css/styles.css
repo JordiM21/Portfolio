@@ -108,7 +108,47 @@ header {
     display: none;
 }
 /*Yellow part*/
-.yellow-up{
+#yellow-part{
+    background-color: #fcda68;
+}
+.right-part{
+    padding-left: 50px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+.left-part p{
+    width: 400px;
+    color: #423f40;
+}
+.left-part h2{
+    font-size: 40px;
+    width: 300px;
+}
+.right-part h2{
+    font-size: 24px;
+}
+th{
+    text-align: start;
+    padding-top: 19px;
+}
+tr td{
+    color: #423f40;
+    padding-right: 30px;
+}
+th span{
+    color: #423f40;
+}
+th h5{
+    font-weight: 800;
+}
+tr{
+    border-bottom: solid 1px #423f40;
+}
+table{
+    border-collapse: collapse;
+}
+
+/* .yellow-up{
     background-color: #fcda68;
     display: flex;
     padding: 50px 100px;
@@ -151,13 +191,14 @@ header {
 }
 #inline {
     display: inline;
-}
+} */
 
 /*HABILIDADES (yellow down)*/
 .yellow-down{
     background-color: #fcda68;
     display: flex;
     padding: 0 200px;
+    padding-bottom: 50px;
 }
 .yellow-down div h4{
     font-size: 20px;
