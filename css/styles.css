@@ -110,8 +110,8 @@ header {
 /*Yellow part*/
 #yellow-part{
     background-color: #fcda68;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .right-part{
@@ -205,16 +205,18 @@ table{
 .yellow-down div h4{
     font-size: 20px;
 }
-.yellow-down div {
-    width: 150px;
+.elemento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 0 10px;
-    justify-content: space-between;
+}
+.elemento img{
+    height: 3rem;
 }
 /*Portafolio*/
-#portafolio{
-    padding: 0 100px;
-}
+
 .portfolio-images{
     display: flex;
 }
@@ -224,15 +226,16 @@ table{
 .subtitle-block h2{
     font-size: 24px;
     font-weight: 800;
-    padding: 50px 0;
+    padding-left: 50px;
 }
 .portfolio-images{
     display: flex;
     justify-content: center;
 }
 .portfolio-images div{
-    padding: 0 20px;
+    padding: 0 10px;
     justify-content: center;
+    text-align: center;
 }
 .portfolio-images div img{
     width: 350px;
