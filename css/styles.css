@@ -61,7 +61,7 @@ header {
     font-size: 24px;
     margin-bottom: 35px;
 }
-#banner a {
+.first-button{
     text-decoration: none;
     background-color: #8e7bef;
     color: white;
@@ -71,11 +71,12 @@ header {
     text-align: center;
     transition: 0.8s;
 }
-#banner a:hover {
+.first-button:hover {
     background-color: #ab9df0;
     padding: 12px;
 }
 /*BANNER RIGHT PART*/
+
 .right-banner {
     display: flex;
 }
@@ -85,17 +86,15 @@ header {
     width: 190px;
 }
 .right-banner-text img{
-    padding: 9px 9px;
-    margin: 8px 8px;
+    padding: 7px;
+    margin: 3px;
     background-color: #8e7bef;
-    border-radius: 100px;
+    border-radius: 30px;
     transition: 0.4s;
 }
 .right-banner-text img:hover{
     background-color: #ab9df0;
-    margin: 0;
-    padding: 12px;
-    
+    width: auto;
 }
 .cinco-años{
     color: #7e7778;
@@ -152,52 +151,6 @@ table{
     width: 90%;
 }
 
-/* .yellow-up{
-    background-color: #fcda68;
-    display: flex;
-    padding: 50px 100px;
-}
-.yellow-left h2{
-    font-size: 30px;
-    width: 50%;
-    padding-bottom: 20px;
-}
-.yellow-left p {
-    width: 90%;
-    color:#423f40;
-}
-.yellow-right {
-    padding-left: 112px;
-}
-.yellow-right h5 {
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-.fj, .sj{
-    padding-bottom: 20px;
-    border-bottom: hsl(351, 3%, 48%) solid 1px;
-    padding-right: 100px;
-    align-items: right;
-    display: inline-block;
-}
-.year{
-    color: #423f40;
-    padding-right: 40px;
-}
-.company {
-    color: #423f40;
-    padding-left: 132px;
-    margin-right: 100%;
-}
-.sj, .tj{
-    padding-top: 10px;
-    
-}
-#inline {
-    display: inline;
-} */
-
-/*skills (yellow down)*/
 .yellow-down{
     background-color: #fcda68;
     padding-bottom: 50px;
@@ -307,7 +260,22 @@ footer{
     height: 23px;
     padding: 0 5px;
 }
-
+.btn{
+    border-radius: 30px;
+    background-color: #bcb9cf;
+    padding: 10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #8d84d7;
+    color: #cecbe1;
+}
+.url{
+    text-decoration: none;
+}
+.url:hover{
+    color: #684cf0;
+}
 
 
 
